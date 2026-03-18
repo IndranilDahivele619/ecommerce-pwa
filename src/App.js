@@ -10,7 +10,7 @@ function App() {
       <h1>🛒 My Ecommerce PWA</h1>
 
       {products.map((item) => (
-        <div key={item.id} style={{ margin: "10px 0" }}>
+        <div key={item.id}>
           <h3>{item.name}</h3>
           <p>₹{item.price}</p>
           <button>Add to Cart</button>
